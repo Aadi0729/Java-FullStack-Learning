@@ -6,7 +6,7 @@ public class BiggerNumber {
 		Scanner s = new Scanner(System.in);
 		
 		System.out.print("Enter n1: ");
-		int n1 = s.nextInt();
+		int n1 = s.nextInt(); 
 		
 		System.out.print("Enter n2: ");
 		int n2 = s.nextInt();
