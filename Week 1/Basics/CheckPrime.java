@@ -9,7 +9,16 @@ public class CheckPrime {
 		System.out.print("Enter the number: ");
 		n = sc.nextInt();
 		
-		int flag = 1;
+		if(n == 1 || n == 2) {
+			System.out.print("The number is prime.");
+		}
+		else {
+			checkPrime(n);
+		}
+	}
+	
+	static void checkPrime(int n) {
+        int flag = 1;
 		
 		for(int i=2; i<=n-1; i++) {
 			if(n%i == 0) {
