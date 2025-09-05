@@ -23,3 +23,5 @@ public class Factorial {
 		return prod;
 	}
 }
+
+// A static method can access only other static members directly
