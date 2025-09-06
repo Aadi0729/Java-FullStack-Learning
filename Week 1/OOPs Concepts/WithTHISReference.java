@@ -6,6 +6,8 @@ class Employee {
 	int empNum;
 	String empName;
 	double empSalary;
+
+	// When the DATA MEMBERS names and ARGUMENTS names are same, How to differentiate is: By using keyword: THIS
 	
 	// Methods
 	void setEmpDetails(int empNum, String empName, double empSalary) {
