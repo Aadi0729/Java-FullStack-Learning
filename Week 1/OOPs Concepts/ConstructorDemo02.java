@@ -10,7 +10,7 @@ class Book {
 		this.bookName = bookName;
 	}
 	
-	Whenever there is a Parameterized Constructor in a 
+	// Whenever there is a Parameterized Constructor in a class, then its a responsibility of a programmer to create a Default Constructor
 	Book() {}; // Default Constructor
 	
 	void display() {
