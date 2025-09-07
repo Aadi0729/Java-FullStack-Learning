@@ -30,7 +30,12 @@ class Account {
 	}
 	
 	void deposit(int amount) {
-		accountBalance += amount;
+		if(amount > 0) {
+			accountBalance += amount;
+		}
+		else {
+			System.out.println("Invalid deposit amount!");
+		}
 	}
 	
 	void dispAccountDetails() {
