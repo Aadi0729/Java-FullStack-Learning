@@ -1,3 +1,9 @@
+P2: Create a class Account with the attributes accountNo - int, accountType - String, accountBalance - int and methods setAccountDetails() which set the values to these 
+attributes, withdraw() which subtracts the given amount from the available balance, deposit() which adds given amount to the available balance and dispAccountDetails() 
+which displays accountNo, accountType, accountBalance. Create a class Main1 which contains main() method to test the functionality of Account class.
+
+CODE:
+
 package myProject;
 
 class Account {
