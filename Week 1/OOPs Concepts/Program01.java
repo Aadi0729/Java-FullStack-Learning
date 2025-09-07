@@ -1,3 +1,12 @@
+P1: Write a program which creates a class "Student" with the following 
+	Data Members rollNum, studName, mark1, mark2, mark3, totalMarks 
+	Methods setStudDetails() - which sets the values to all the data members except totalMarks.
+	calculate Total() - which calculate the total Marks
+	displayStudDetails() - which displays rollNum, studName and totalMarks
+Create a class StudentDemo to test the functionality of Student class
+
+CODE:
+
 package myProject;
 
 class Student {
