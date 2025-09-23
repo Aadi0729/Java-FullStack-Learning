@@ -1,3 +1,5 @@
+// Wap to check whether the given string is palindrome or not ?
+
 package week3;
 import java.util.Scanner;
 
