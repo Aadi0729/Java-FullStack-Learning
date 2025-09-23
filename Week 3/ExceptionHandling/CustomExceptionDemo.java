@@ -27,7 +27,10 @@ public class CustomExceptionDemo {
 			c.setAge(12);
 		} 
 		catch (AgeException e) {
-			System.err.println(e);
+			// System.err.println(e); // invokes toString() implicitly
+			// System.err.println(e.getMessage());
+			e.printStackTrace();
 		}
 	}
 }
+
