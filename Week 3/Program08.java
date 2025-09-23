@@ -1,3 +1,5 @@
+// Wap to count the number of vowels, consonants and words from the given line of text.
+
 package week3;
 import java.util.Scanner;
 
