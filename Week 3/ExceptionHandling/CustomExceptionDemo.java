@@ -1,3 +1,7 @@
+Create a user defined exception "AgeException".
+Create a class "Customer" with a method "setAge()" which takes "age" as an argument.
+If the age is <18 or 60 then it should throw "AgeException" with the message "Age should be between 18 and 60".
+
 package week3;
 
 class AgeException extends Exception {
