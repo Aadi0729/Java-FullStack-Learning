@@ -21,7 +21,19 @@ This repository is my personal log where I document my **weekly progress, projec
 - **Backend**: Java, Spring Boot, Hibernate, REST APIs  
 - **Frontend**: HTML, CSS, JavaScript, React.js  
 - **Database**: MySQL, MongoDB  
-- **Tools & Others**: Git, GitHub, Docker, CI/CD, Cloud Deployment  
+- **Tools & Others**: Git, GitHub, Docker, CI/CD, Cloud Deployment
+
+
+## ✍️ My Blogs  
+
+I regularly share my insights and learning journey through blogs:  
+
+- 📖 [Blog 1](https://adityapateriya.hashnode.dev/week-1-highlights-embarking-on-my-core-java-learning-path)  
+- 📖 [Blog 2](https://adityapateriya07.hashnode.dev/week-2-deepening-core-java-with-oop-concepts)
+- 📖 [Blog 3](https://exceptionhandling.hashnode.dev/exploring-strings-and-exception-handling-in-java)
+- 📖 [More Blogs...](https://hashnode.com/@adityapateriya)  
+
+*I’ll keep adding more as I write.*  
 
 
 ## 🎯 Final Goal  
