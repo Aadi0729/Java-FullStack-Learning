@@ -7,7 +7,7 @@ This repository is my personal log where I document my **weekly progress, projec
 ## 📌 About This Repository  
 - 🗂️ Contains **weekly reports** of my learning.  
 - 💻 Covers **Java, Spring Boot, Frontend (HTML, CSS, JS, React), Databases, and Deployment**.
-- - 📝 I also share my learnings through **blogs**.
+- 📝 I also share my learnings through **blogs**.
 - 🎯 Goal: Build strong **end-to-end development skills** and showcase my growth as a developer.  
 
 
@@ -50,4 +50,4 @@ By the end of this journey, I aim to:
 - 🐦 [Twitter](https://x.com/AdityaP62016807)
 
 
-✨ This repo is not just code — it’s a **timeline of my growth**. Feel free to explore, suggest improvements, or collaborate!  
+✨ This repo is not just code - it’s a **timeline of my growth**. Feel free to explore, suggest improvements, or collaborate!  
