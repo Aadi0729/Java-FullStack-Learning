@@ -5,9 +5,9 @@ public class ArrayListDemo {
 	
 	public static void main(String[] args) {
 		
-		ArrayList al = new ArrayList();
-		al.add(10);
-		al.add(20);
+		LinkedList al = new LinkedList();
+		al.add(10); // Autoboxing - added in Java 5 version
+		al.add(20); // al.add(new Integer(20)); // prior Java 5 version
 		al.add("ppp");
 		al.add("qqq");
 		al.add(10);
@@ -25,3 +25,8 @@ public class ArrayListDemo {
 		System.out.println("Size = "+al.size()); //Size = 4
 	}
 }
+
+/*
+  Autoboxing: ---------- Converting respective primitive type into reference
+  type or vice-versa automatically. This feature is known as autoboxing.
+*/
