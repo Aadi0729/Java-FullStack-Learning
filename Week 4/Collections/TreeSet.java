@@ -10,6 +10,7 @@ public class TreeSetDemo {
 		ts.add("mouse");
 		ts.add("ups");
 		ts.add("speakers");
+		// ts.add(10); // ClassCastException
 		System.out.println(ts); // [keyboard, monitor, mouse, speakers, ups]
 		System.out.println(ts.descendingSet()); // [ups, speakers, mouse, monitor, keyboard]
 	}
