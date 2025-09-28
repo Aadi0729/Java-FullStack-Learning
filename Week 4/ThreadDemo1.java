@@ -1,5 +1,3 @@
-// Methods of Thread class
-
 package thread;
 
 class MyThread extends Thread {
