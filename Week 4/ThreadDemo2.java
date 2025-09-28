@@ -9,7 +9,7 @@ class MyThread extends Thread {
 	}
 }
 
-public class ThreadMethodsDemo {
+public class ThreadDemo2 {
 	public static void main(String[] args) {
 		
 		MyThread t = new MyThread();
