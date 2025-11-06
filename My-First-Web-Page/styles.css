@@ -1,11 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+#navbar {
+    padding: 8px;
+    padding-bottom: 5px;
+    margin: 0;
+}
+
 h1 {
     text-align: center;
-    color: darkblue;
 }
 
 #banner {
     width: 100%;
     height: 200px;
+    object-fit: cover; // To ensure the image doesn't stretch
+}
+
+#about {
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 8px;
+}
+
+#description {
+    width: 50%;
+    padding-right: 8px;
+}
+
+#image {
+    width: 50%;
+}
+
+#image-id {
+    border-radius: 5px;
+    width: 100%;
 }
 
 .color {
