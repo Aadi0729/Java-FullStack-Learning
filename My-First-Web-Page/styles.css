@@ -45,17 +45,52 @@ h1 {
     width: 100%;
 }
 
-.tech-stack {
+/* .location {
     font-size: 15px;
     color: gray;
     margin-bottom: 10px;
+} */
+
+#jobs-table {
+    width: 100%;
+    border: 1px solid gray;
+    border-collapse: collapse;
+}
+
+/* #jobs-table th, td{
+    border: 1px solid gray;
+} */ 
+
+/* Below are styles for table headers and data rows, can
+be done using above jobs-table th, td */
+.jobs-header-row th {
+    border: 1px solid gray;
+    padding: 6px 8px;
+    background-color: aliceblue;
+    text-align: center;
+}
+
+.jobs-data-row td {
+    border: 1px solid gray;
+    padding: 6px 6px;
+}
+
+/* #jobs-table tr:nth-child(even){
+    border: 1px solid lightgray;
+    padding: 6px 6px;
+    background-color: #d3c1c1ff;
+} */ 
+.jobs-data-row:nth-child(even){
+    border: 1px solid lightgray;
+    padding: 6px 6px;
+    background-color: #ecddddff;
 }
 
 h2 {
     text-align: center;
 }
 
-#projects {
+#jobs {
     max-width: 800px;
     margin: 0 auto;
     padding: 0 8px;
