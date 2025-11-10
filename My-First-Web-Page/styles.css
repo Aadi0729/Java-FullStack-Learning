@@ -1,11 +1,52 @@
+/* * {
+    font-size: : 16px;
+} */
+
+html {
+    font-size: 16px; /* 1rem = 16px */
+    /* color: rgb(33, 37, 41); Dark gray color for text */
+    /* color: #212529; */
+}
+
 body {
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    /* If the request failed or something, if the font is not loaded 
+    properly, it will use sans-serif as fallback */
+    font-family: 'Roboto', sans-serif;
+    /* line-height: 1.2; */
+    font-size: 1rem; /* 16px */
+    color: #444444;
 }
+
+// We use em to specify the font size in relation to the parent element
+/* h1 {
+    font-size: 3em;
+} */
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    color: #222222
+    /* font size of the heading is 3 times the font size of the body -> 48px
+    We use the rem to specify the font size in relation to the root tag / body of the entire page */
+    font-size: 3rem;
+}
+
+h1 { font-size: 2.5rem; }
+h2 { font-size: 1.75rem; }
+h3 { font-size: 1.75rem; }
+h4 { font-size: 1.5rem; }
+h5 { font-size: 1.25rem; }
+h6 { font-size: 1rem; }
 
 a {
     text-decoration: none;
+    color: #3B82F6; Blue color for links
+}
+
+a:hover {
+    color: #1E40AF; // Darker blue on hover
 }
 
 #navbar {
@@ -34,6 +75,7 @@ h1 {
 #description {
     width: 50%;
     padding-right: 8px;
+    font-size: 1.1rem;
 }
 
 #image {
@@ -66,8 +108,9 @@ be done using above jobs-table th, td */
 .jobs-header-row th {
     border: 1px solid gray;
     padding: 6px 8px;
-    background-color: aliceblue;
+    background-color: #DBEAFE;
     text-align: center;
+    color: #222222;
 }
 
 .jobs-data-row td {
@@ -83,7 +126,7 @@ be done using above jobs-table th, td */
 .jobs-data-row:nth-child(even){
     border: 1px solid lightgray;
     padding: 6px 6px;
-    background-color: #ecddddff;
+    background-color: #EFF6FF;
 }
 
 h2 {
@@ -106,7 +149,7 @@ h3 {
 }
 
 #footer {
-    background-color: ghostwhite;
+    background-color: #FAFAFA;
     padding: 8px;
     margin-top: 32px;
     text-align: center;
@@ -123,5 +166,6 @@ h3 {
 }
 
 .copyright {
-    color: gray;
+    color: #71717A;
+    font-size: 0.875rem;
 }
