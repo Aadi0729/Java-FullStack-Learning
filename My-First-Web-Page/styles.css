@@ -148,6 +148,50 @@ h3 {
     padding-right: 8px;
 }
 
+#application {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 8px;
+}
+
+.form-group {
+    margin: 16px 0;
+}
+
+/* Label is an inline element, kind of like a span so we can't give it a margin or padding */
+#application-form label {
+    font-weight: 600;
+}
+
+#application-form input, select, textarea {
+    padding: 4px;
+    font-size: 0.875rem;
+    margin-top: 4px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.form-group textarea {
+    width: 80%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form-group input[type="checkbox"] {
+    width: 15px;
+    height: 15px;
+}
+
+.form-group input[type="submit"] {
+    background-color: #3B82F6;
+    color: white;
+    border: none;
+    font-weight: 500;
+    padding: 16px 16px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
 #footer {
     background-color: #FAFAFA;
     padding: 8px;

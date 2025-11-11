@@ -115,6 +115,69 @@
         </table>
     </div>
 
+    <div id="application">
+        <h2>Submit Your Application</h2>
+
+        <form id="application-form" 
+              action="https://formbold.com/s/3K4wZ" 
+              method="POST" 
+              enctype="multipart/form-data">
+
+            <div class="form-group">
+                <label for="name">Full Name</label><br>
+                <input type="text" id="name" name="Name" placeholder="Enter your name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="Email" placeholder="Enter your email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Phone</label><br>
+                <input type="tel" id="phone" name="Phone" placeholder="Enter your phone number" required>
+            </div>
+
+            <div class="form-group">
+                <label for="dob">Date of Birth</label><br>
+                <input type="date" id="dob" name="Date of Birth" required>
+            </div>
+
+            <div class="form-group">
+                <label for="position">Position Applied For</label><br>
+                <select id="position" name="Position Applied" required>
+                    <option value="">Select option</option>
+                    <option value="Backend Developer">Backend Developer</option>
+                    <option value="Full Stack Developer">Full Stack Developer</option>
+                    <option value="Data Scientist">Data Scientist</option>
+                    <option value="ML Engineer">ML Engineer</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="resume">Upload Resume</label><br>
+                <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" required>
+            </div>
+
+            <div class="form-group">
+                <label for="coverletter">Cover Letter</label><br>
+                <textarea name="coverletter" id="coverletter" rows="5"
+                    placeholder="Explain what makes you suitable for the job.."></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="terms">
+                    <input type="checkbox" id="terms" name="terms" required>
+                    I agree to the terms and conditions
+                </label>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Submit Application" id="submit-button">
+            </div>
+        </form>
+    </div>
+
     <div id="footer">
         <ul id="footer-links">
             <li>
