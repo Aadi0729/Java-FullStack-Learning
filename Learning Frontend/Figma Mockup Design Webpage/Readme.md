@@ -28,3 +28,5 @@
 ‣ Add styles for each completed section one by one using CSS
 
 ‣ Try to replicate the mockup as closely & precisely as possible
+
+5:27:13 -> Continue
