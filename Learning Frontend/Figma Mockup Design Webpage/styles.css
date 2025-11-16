@@ -89,3 +89,58 @@ h2 {
     color: #FFFFFF;
     margin-top: 20px;
 }
+
+#what-I-do-section {
+    width: 80%;
+    max-width: 1440px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#what-I-do-section h3 {
+    color: #332d2dff;
+}
+
+#skills-section {
+    /* display: flex;
+    width: 85%;
+    max-width: 1440px;
+    margin: 0 auto;
+    */
+
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    position: relative; /* IMPORTANT */
+    padding: 3rem 0;
+}
+
+.skills {
+    /* width: 33.33%;
+    padding: 14px;
+    margin: 20px 20px 20px 20px;
+    text-align: center;
+    background-color: #d8e7d8ff; */
+
+    background: #fff;
+    border: 2px solid #ddd;
+    padding: 1rem;
+    width: 250px;
+    z-index: 10; /* keeps cards above blobs */
+    position: relative;
+}
+
+/* .blob-red {
+  position: relative;
+  width: 250px;
+  bottom: -50px;
+  left: -50px;
+  z-index: 1;
+}
+.blob-blue {
+  position: relative;
+  width: 250px;
+  bottom: -50px;
+  left: -50px;
+  z-index: 1;
+} */
