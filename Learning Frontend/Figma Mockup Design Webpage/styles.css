@@ -18,6 +18,8 @@ h1 {
     font-weight: 700;
     line-height: 50px;
     color: #190D37;
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
 
 h2 {
@@ -69,4 +71,21 @@ h2 {
     font-weight: 400;
     line-height: 14px;
     color: #000000;
+}
+
+#hi-name {
+    margin-top: 35px;
+}
+
+#contact-button {
+    height: 44px;
+    width: 138px;
+    border-radius: 4px;
+    background-color: #2F2F2F;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin-top: 20px;
 }
