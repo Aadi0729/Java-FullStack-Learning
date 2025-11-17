@@ -32,7 +32,7 @@ h2 {
 
 .bigText {
     font-family: Poppins, sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 28px;
     color: #331E6A;
@@ -144,3 +144,123 @@ h2 {
   left: -50px;
   z-index: 1;
 } */
+
+#pricing-section {
+    max-width: 1060px;
+    margin: 49px auto 49px auto;
+}
+
+.overtitle {
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #2858FF;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.section-heading {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.section-subtitle {
+    text-align: center;
+    margin: 8px auto 48px auto;
+    max-width: 700px;
+}
+
+#pricing-boxes {
+    display: flex;
+}
+
+.pricing-box {
+    width: 33.33%
+}
+
+.pricing-cards {
+    background-color: #FFFFFF;
+    margin: 0 10px;
+    border-radius: 10px;
+    box-shadow: 6px 2px 25px -9px #0000001A;
+    padding: 20px;
+}
+
+.service {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #2858FF;
+}
+
+.pricing {
+    font-family: Poppins;
+    font-size: 36px;
+    margin-top: 8px;
+    font-weight: 700;
+    line-height: 54px;
+    color: #000000;
+}
+
+.pricing-per-page {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #8A8A8A;
+}
+
+.service-description {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #8B8B8B;
+    margin-top: 8px;
+}
+
+.check-box {
+    font-size: 10px;
+}
+.service-benefits {
+    padding: 0;
+    list-style-type: none;
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #666666;
+}
+
+#service-benefits li {
+    margin-bottom: 8px;
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #666666;
+}
+
+.servive-contact-button {
+    width: 100%;
+    height: 44px;
+    border-radius: 4px;
+    border: 2px solid #2F2F2F;
+    background-color: #ffffff;
+
+    color: #2F2F2F;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+}
+
+.servive-contact-button:hover {
+    background-color: #2F2F2F;
+    color: #ffffff;
+}
