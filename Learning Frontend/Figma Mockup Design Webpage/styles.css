@@ -41,7 +41,7 @@ h2 {
 #hero-section {
     display: flex;
     width: 80%;
-    max-width: 1440px;
+    max-width: 1060px;
     margin: 0 auto;
 }
 
@@ -63,6 +63,8 @@ h2 {
 
 #hero-image {
     width: 100%;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
 }
 
 .smalltext {
@@ -74,7 +76,7 @@ h2 {
 }
 
 #hi-name {
-    margin-top: 35px;
+    margin-top: 5px;
 }
 
 #contact-button {
@@ -88,6 +90,12 @@ h2 {
     line-height: 19px;
     color: #FFFFFF;
     margin-top: 20px;
+}
+
+#contact-button:hover {
+    background-color: #ffffff;
+    color: #000000;
+    cursor: pointer;
 }
 
 #what-I-do-section {
@@ -263,4 +271,48 @@ h2 {
 .servive-contact-button:hover {
     background-color: #2F2F2F;
     color: #ffffff;
+    cursor: pointer;
+}
+
+.pricing-cards.card-2 {
+    background-color: #FFD748;
+}
+
+.card-2 .service{
+    color: #000000;
+}
+
+.card-2 li {
+    color: #000000BF;
+}
+
+.card-2 .service-description {
+    color: #00000080;
+}
+
+.card-2 .pricing-per-page {
+    color: #00000080;
+}
+
+.card-2 .servive-contact-button {
+    background-color: #2F2F2F;
+    color: #ffffff;
+}
+
+.card-2 .servive-contact-button:hover {
+    background-color: #FFFFFF;
+    color: #2F2F2F;
+}
+
+#footer {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    background-color: #000000;
+    margin-top: 48px;
+    color: #ffffff;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
 }
