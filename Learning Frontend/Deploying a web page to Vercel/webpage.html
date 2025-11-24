@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>
+        Aditya's Web Space
+    </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="navbar">
+        <img id="logo" src="Logo.jpg" alt="Logo" height="30" />
+    </div>
+
+    <img id="banner" src="Banner.jpg" alt="Banner" height="360">
+    <h1>About Web Space</h1>
+    <div id="about">
+        <div id="description">
+            <p style="margin-top: 0;">
+                Welcome to <b>Web Space</b> - where creativity meets technology!
+                We are a digital solutions company passionate about building modern, responsive, and user-friendly web
+                experiences. From stunning websites to powerful web applications, our goal is to help businesses and
+                individuals establish a strong online presence. At Web Space, we blend innovative design, cutting-edge
+                technology, and seamless functionality to bring your ideas to life.
+            </p>
+
+            <p>
+                Blogs and articles written by our team members:
+            <ol>
+                <li>
+                    <a href="https://www.linkedin.com/in/aditya-pateriya7781/" target="_blank">
+                        Articles on LinkedIn
+                    </a>
+                </li>
+                <li>
+                    <a href="https://hashnode.com/@adityapateriya" target="_blank">
+                        Blogs on Hashnode
+                    </a>
+                </li>
+            </ol>
+            </p>
+        </div>
+        <div id="image">
+            <img id="image-id" src="Team Image.avif" alt="Team Image">
+        </div>
+    </div>
+
+    <div id="jobs">
+        <h2>Job Opportunities</h2>
+
+        <!-- Web Page is under construction. Job opportunities will be updated soon. -->
+        <!-- <div>
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=adityapateriya7986@gmail.com&su=Would you like to apply for the Backend Developer position?"
+                target="_blank" class="apply">Apply</a>
+            <h3 class="job">Backend Developer</h3>
+            <div class="location">Bengaluru, India</div>
+        </div>
+        <div>
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=adityapateriya7986@gmail.com&su=Would you like to apply for the Full Stack Developer position?"
+                target="_blank" class="apply">Apply</a>
+            <h3 class="job">Full Stack Developer</h3>
+            <div class="location">Pune, India</div>
+        </div>
+        <div>
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=adityapateriya7986@gmail.com&su=Would you like to apply for the Data Scientist position?"
+                target="_blank" class="apply">Apply</a>
+            <h3 class="job">Data Scientist</h3>
+            <div class="location">Remote</div>
+        </div> -->
+
+        <table id="jobs-table">
+            <tr class="jobs-header-row">
+                <th rowspan="2">Job Title</th>
+                <th colspan="2">Location</th>
+                <th rowspan="2">Salary</th>
+                <th rowspan="2">Posted On</th>
+            </tr>
+            <tr class="jobs-header-row">
+                <th>City</th>
+                <th>Country</th>
+            </tr>
+            <tr class="jobs-data-row">
+                <td>Backend Developer</td>
+                <td>Bengaluru</td>
+                <td>India</td>
+                <td>₹ 15,00,000</td>
+                <td>01 Jan, 2026</td>
+            </tr>
+            <tr class="jobs-data-row">
+                <td>Full Stack Developer</td>
+                <td>Pune</td>
+                <td>India</td>
+                <td>₹ 14,00,000</td>
+                <td>15 Jan, 2026</td>
+            </tr>
+            <tr class="jobs-data-row">
+                <td>Data Scientist</td>
+                <td>San Francisco</td>
+                <td>USA</td>
+                <td>$ 175,000</td>
+                <td>20 Jan, 2026</td>
+            </tr>
+            <tr class="jobs-data-row">
+                <td>ML Engineer</td>
+                <td colspan="2">Remote</td>
+                <td>$ 80,000</td>
+                <td>25 Jan, 2026</td>
+            </tr>
+        </table>
+    </div>
+
+    <div id="application">
+        <h2>Submit Your Application</h2>
+
+        <form id="application-form" 
+              action="https://formbold.com/s/3K4wZ" 
+              method="POST" 
+              enctype="multipart/form-data">
+
+            <div class="form-group">
+                <label for="name">Full Name</label><br>
+                <input type="text" id="name" name="Name" placeholder="Enter your name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="Email" placeholder="Enter your email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Phone</label><br>
+                <input type="tel" id="phone" name="Phone" placeholder="Enter your phone number" required>
+            </div>
+
+            <div class="form-group">
+                <label for="dob">Date of Birth</label><br>
+                <input type="date" id="dob" name="Date of Birth" required>
+            </div>
+
+            <div class="form-group">
+                <label for="position">Position Applied For</label><br>
+                <select id="position" name="Position Applied" required>
+                    <option value="">Select option</option>
+                    <option value="Backend Developer">Backend Developer</option>
+                    <option value="Full Stack Developer">Full Stack Developer</option>
+                    <option value="Data Scientist">Data Scientist</option>
+                    <option value="ML Engineer">ML Engineer</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="resume">Upload Resume</label><br>
+                <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" required>
+            </div>
+
+            <div class="form-group">
+                <label for="coverletter">Cover Letter</label><br>
+                <textarea name="coverletter" id="coverletter" rows="5"
+                    placeholder="Explain what makes you suitable for the job.."></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="terms">
+                    <input type="checkbox" id="terms" name="terms" required>
+                    I agree to the terms and conditions
+                </label>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Submit Application" id="submit-button">
+            </div>
+        </form>
+    </div>
+
+    <div id="footer">
+        <ul id="footer-links">
+            <li>
+                <a href="https://www.linkedin.com/in/aditya-pateriya7781/" target="_blank">
+                    LinkedIn
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/Aadi0729" target="_blank">
+                    Github
+                </a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/@AdityaPateriya07" target="_blank">
+                    YouTube
+                </a>
+            </li>
+        </ul>
+        <span class="copyright">© 2025, Web Space</span>
+    </div>
+</body>
+
+</html>

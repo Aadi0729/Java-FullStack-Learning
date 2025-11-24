@@ -1,0 +1,215 @@
+/* * {
+    font-size: : 16px;
+} */
+
+html {
+    font-size: 16px; /* 1rem = 16px */
+    /* color: rgb(33, 37, 41); Dark gray color for text */
+    /* color: #212529; */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    /* If the request failed or something, if the font is not loaded 
+    properly, it will use sans-serif as fallback */
+    font-family: 'Roboto', sans-serif;
+    /* line-height: 1.2; */
+    font-size: 1rem; /* 16px */
+    color: #444444;
+}
+
+// We use em to specify the font size in relation to the parent element
+/* h1 {
+    font-size: 3em;
+} */
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    color: #222222
+    /* font size of the heading is 3 times the font size of the body -> 48px
+    We use the rem to specify the font size in relation to the root tag / body of the entire page */
+    font-size: 3rem;
+}
+
+h1 { font-size: 2.5rem; }
+h2 { font-size: 1.75rem; }
+h3 { font-size: 1.75rem; }
+h4 { font-size: 1.5rem; }
+h5 { font-size: 1.25rem; }
+h6 { font-size: 1rem; }
+
+a {
+    text-decoration: none;
+    color: #3B82F6; Blue color for links
+}
+
+a:hover {
+    color: #1E40AF; // Darker blue on hover
+}
+
+#navbar {
+    padding: 8px;
+    padding-bottom: 5px;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+#banner {
+    width: 100%;
+    height: 200px;
+    object-fit: cover; // To ensure the image doesn't stretch
+}
+
+#about {
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 8px;
+}
+
+#description {
+    width: 50%;
+    padding-right: 8px;
+    font-size: 1.1rem;
+}
+
+#image {
+    width: 50%;
+}
+
+#image-id {
+    border-radius: 5px;
+    width: 100%;
+}
+
+/* .location {
+    font-size: 15px;
+    color: gray;
+    margin-bottom: 10px;
+} */
+
+#jobs-table {
+    width: 100%;
+    border: 1px solid gray;
+    border-collapse: collapse;
+}
+
+/* #jobs-table th, td{
+    border: 1px solid gray;
+} */ 
+
+/* Below are styles for table headers and data rows, can
+be done using above jobs-table th, td */
+.jobs-header-row th {
+    border: 1px solid gray;
+    padding: 6px 8px;
+    background-color: #DBEAFE;
+    text-align: center;
+    color: #222222;
+}
+
+.jobs-data-row td {
+    border: 1px solid gray;
+    padding: 6px 6px;
+}
+
+/* #jobs-table tr:nth-child(even){
+    border: 1px solid lightgray;
+    padding: 6px 6px;
+    background-color: #d3c1c1ff;
+} */ 
+.jobs-data-row:nth-child(even){
+    border: 1px solid lightgray;
+    padding: 6px 6px;
+    background-color: #EFF6FF;
+}
+
+h2 {
+    text-align: center;
+}
+
+#jobs {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 8px;
+}
+
+h3 {
+    margin-bottom: 5px;
+}
+
+.apply {
+    float: right;
+    padding-right: 8px;
+}
+
+#application {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 8px;
+}
+
+.form-group {
+    margin: 16px 0;
+}
+
+/* Label is an inline element, kind of like a span so we can't give it a margin or padding */
+#application-form label {
+    font-weight: 600;
+}
+
+#application-form input, select, textarea {
+    padding: 4px;
+    font-size: 0.875rem;
+    margin-top: 4px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.form-group textarea {
+    width: 80%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form-group input[type="checkbox"] {
+    width: 15px;
+    height: 15px;
+}
+
+.form-group input[type="submit"] {
+    background-color: #3B82F6;
+    color: white;
+    border: none;
+    font-weight: 500;
+    padding: 16px 16px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#footer {
+    background-color: #FAFAFA;
+    padding: 8px;
+    margin-top: 32px;
+    text-align: center;
+}
+
+#footer-links {
+    /* display: flex; */
+    list-style: none; // removed the bullets
+}
+
+#footer-links li {
+    display: inline;
+    margin: 0 16px;
+}
+
+.copyright {
+    color: #71717A;
+    font-size: 0.875rem;
+}
