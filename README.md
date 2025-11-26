@@ -33,6 +33,7 @@ I regularly share my insights and learning journey through blogs:
 - 📖 [Blog 3](https://exceptionhandling.hashnode.dev/exploring-strings-and-exception-handling-in-java)
 - 📖 [Blog 4](https://multithreadingjava.hashnode.dev/mastering-multithreading-and-collections)
 - 📖 [Blog 5](https://streamapi.hashnode.dev/lambda-expressions-and-stream-api-in-java-8)
+- 📖 [Blog 6](https://githubworkflow.hashnode.dev/what-i-learned-about-the-github-collaboration-workflow)
 - 📖 [More Blogs...](https://hashnode.com/@adityapateriya)  
 
 *I’ll keep adding more as I write.*  
