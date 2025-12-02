@@ -45,6 +45,9 @@ To check for version specific documentation - https://docs.oracle.com/en/java/ja
      - Set JAVA_HOME properly
      - Update PATH correctly - %JAVA_HOME%\bin
      - Verify
+       
        java --version
+       
        javac --version
+       
        where java
