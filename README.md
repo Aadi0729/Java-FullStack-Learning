@@ -8,8 +8,14 @@ This repository is my personal log where I document my **weekly progress, projec
 - 🗂️ Contains **weekly reports** of my learning.  
 - 💻 Covers **Java, Spring Boot, Frontend (HTML, CSS, JS, React), Databases, and Deployment**.
 - 📝 I also share my learnings through **blogs**.
-- 🎯 Goal: Build strong **end-to-end development skills** and showcase my growth as a developer.  
+- 🎯 Goal: Build strong **end-to-end development skills** and showcase my growth as a developer.
 
+## 🚀 Starting “100 Days Java Backend Challenge”
+
+I’ve officially begun my 100 Days Java Backend Challenge to build strong backend development skills through consistent daily learning and practice.
+All progress will be tracked in the folder:
+
+👉 100-Days-Java-Backend/
 
 ## 🗓️ Weekly Progress  
 
