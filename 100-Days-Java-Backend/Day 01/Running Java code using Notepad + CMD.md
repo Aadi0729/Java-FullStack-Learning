@@ -5,7 +5,9 @@
    - javac --version
 
 2. Create a file in Notepad:
+   
    File: Main.java
+   
    Code:
    public class Main {
        public static void main(String[] args) {
@@ -13,11 +15,11 @@
        }
    }
 
-3. Open CMD and navigate to the file location:
+4. Open CMD and navigate to the file location:
    cd path/to/folder
 
-4. Compile the program:
+5. Compile the program:
    javac Main.java
 
-5. Run the program:
+6. Run the program:
    java Main
