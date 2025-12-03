@@ -9,11 +9,13 @@
    File: Main.java
    
    Code:
+   ```
    public class Main {
        public static void main(String[] args) {
            System.out.println("Hello from Notepad!");
        }
    }
+   ```
 
 4. Open CMD and navigate to the file location:
    cd path/to/folder
