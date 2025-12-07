@@ -11,7 +11,9 @@ String Templates (STR."...") were preview only — removed later
 | **Java 25**  | ❌ Not supported            
 
 ➡️ String Templates DO NOT work in Java 24 or Java 25.
+
 ➡️ If you want STR."Hello {name}", use JDK 23 (or 21/22/23).
+
 ➡️ In Java 25, this feature does NOT exist — no settings can enable it.
 
 **Why it fails in Java 25**
