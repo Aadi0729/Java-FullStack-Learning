@@ -65,3 +65,27 @@ public class Main {
     - main → special name recognized by JVM
     - String[] args → command-line arguments
 - `System.out.println()`: prints output to console.
+
+```
+public class HelloWorld {
+    /**
+     * This is JavaDoc Comment {@link Stable} to trust
+     *
+     */
+
+    public static void main(String[] args) {
+        
+        // Variables
+        String name = "Aditya";
+        int age = 23;
+        String color = "Blue";
+
+        // System.out.println(STR."Hello {name}. You are {age} years old. Your favourite color is {color}.");
+        System.out.println("Hello " + name + ", You are " + age + " years old. Your favourite color is " + color);
+
+        // CONSTANT
+        /*final int a = 12;
+        a = 13;*/
+    }
+}
+```
