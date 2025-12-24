@@ -114,18 +114,25 @@ At the development stage, the JDK must be installed on your system.
 *Why JDK Is Required ?*
 
 Because during development you are:
+
 i) Writing Java source code (.java)
+
 ii) Compiling source code into bytecode (.class)
+
 iii) Running and debugging the application locally
 
 *What JDK Provides ?*
 
 i) javac → Compiles Java source code into bytecode
+
 ii) java → Starts the JVM and runs the application
+
 iii) Debugging and build tools
 
 **Important hierarchy:**
+
 - JDK includes JRE
+  
 - JRE includes JVM
 
 So when JDK is installed, everything needed for development and execution is already present.
