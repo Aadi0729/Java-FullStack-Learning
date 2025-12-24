@@ -152,7 +152,9 @@ ecommerce-app.jar
 *What the JAR File Contains ?*
 
 i) Compiled Java bytecode
+
 ii) Application classes
+
 iii) Dependency libraries
 
 *What the JAR File Does NOT Contain ?*
