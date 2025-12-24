@@ -82,8 +82,11 @@ This document explains how JVM, JRE, and JDK are used in a real-world backend sy
 Assume you are building a Java Spring Boot backend for an e-commerce platform.
 
 This backend provides:
+
 i) User authentication APIs
+
 ii) Product listing APIs
+
 iii) Order creation and management APIs
 
 This is a standard enterprise backend use case.
