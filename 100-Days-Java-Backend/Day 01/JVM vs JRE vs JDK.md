@@ -137,7 +137,7 @@ iii) Debugging and build tools
 
 So when JDK is installed, everything needed for development and execution is already present.
 
-## Phase 2: Build Output (What You Actually Deploy)**
+## Phase 2: Build Output (What You Actually Deploy)
 
 After development, the project is built using a command like:
 ```
