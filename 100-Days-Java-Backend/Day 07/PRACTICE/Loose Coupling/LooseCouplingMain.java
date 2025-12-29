@@ -5,10 +5,10 @@ public class LooseCouplingMain {
 
         NotificationService emailService = new EmailNotification();
         OrderService orderServiceWithEmail = new OrderService(emailService);
-        System.out.println(orderServiceWithEmail.getNotification());
+        System.out.println(orderServiceWithEmail.placeOrder());
 
         NotificationService smsService = new SmsNotification();
         OrderService orderServiceWithSMS = new OrderService(smsService);
-        System.out.println(orderServiceWithSMS.getNotification());
+        System.out.println(orderServiceWithSMS.placeOrder());
     }
 }
