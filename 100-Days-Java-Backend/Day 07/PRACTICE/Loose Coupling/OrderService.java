@@ -7,7 +7,7 @@ public class OrderService {
         this.notificationService = notificationService;
     }
 
-    public String getNotification() {
+    public String placeOrder() {
         return notificationService.send();
     }
 }
