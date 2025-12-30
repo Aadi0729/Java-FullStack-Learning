@@ -1,13 +1,13 @@
 ## Dependency Injection (DI)
 
-**2.1 What Dependency Injection really is**
+**1. What Dependency Injection really is**
 
 Dependency Injection is a technique used to achieve Inversion of Control by supplying dependencies from outside.
 
 IoC is the principle.
 DI is the mechanism.
 
-**2.2 What is the dependency here ?**
+**2. What is the dependency here ?**
 
 In ```OrderService```:
 ```
@@ -18,7 +18,7 @@ This is a ***dependency*** because:
 - ```OrderService``` cannot function without it
 - It delegates part of its work to it
 
-**2.3 How DI is happening in your code**
+**3. How DI is happening in your code**
 
 ***Constructor Injection (best form of DI)***
 ```
@@ -47,7 +47,7 @@ Here:
 
 This is ***pure Dependency Injection***.
 
-**2.4 Why this matters (real impact)**
+**4. Why this matters (real impact)**
 
 Because of DI:
 
