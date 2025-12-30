@@ -1,6 +1,6 @@
-## 1. Inversion of Control (IoC)
+## Inversion of Control (IoC)
 
-**1.1 What problem IoC is solving**
+**1. What problem IoC is solving**
 
 In traditional programming, your code controls everything:
 
@@ -12,7 +12,7 @@ That means you are in control.
 
 Inversion of Control flips this responsibility.
 
-**1.2 What IoC actually means**
+**2. What IoC actually means**
 
 Inversion of Control means the responsibility of creating and managing dependencies is moved out of the dependent class.
 
@@ -27,7 +27,7 @@ That “something else” can be:
 - Your main() method (as in code)
 - A framework (like Spring)
 
-**1.3 Where IoC is happening in your code**
+**3. Where IoC is happening in your code**
 
 Your ```OrderService``` does not control its dependency
 ```
@@ -50,7 +50,7 @@ Control of dependency selection is outside ```OrderService```
 
 That is ***Inversion of Control***.
 
-**1.4 Who has the control now ?**
+**4. Who has the control now ?**
 
 Look at ```LooseCouplingMain```:
 ```
