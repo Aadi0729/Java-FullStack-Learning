@@ -15,9 +15,9 @@
     </bean>-->
 
     <!--
-    Whatever the dependencies this class needs will be autowired "by name"
-    The name of the bean should be same as the property name within Car class
-    [ Bean Name == Property Name ]
+    Whatever the dependencies this class needs will be autowired "by type"
+    The type of the bean should be same as the property type within Car class
+    [ Bean Type == Property Type ]
     -->
     <bean id="myCar" class="car.example.autowire.type.Car" autowire="byType"/>
 </beans>
