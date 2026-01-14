@@ -106,7 +106,7 @@ Spring provides three ways to resolve this.
 
 This bypasses autowiring completely.
 
-### 7.2 @Primary (annotation-based)
+### 7.2 ```@Primary``` (annotation-based)
 ```
 @Primary
 @Component
